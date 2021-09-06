@@ -18,6 +18,7 @@ func contact(w http.ResponseWriter, _ *http.Request) {
 		"support@lenslocked.com</a>.")
 }
 
+//
 func main() {
 	r := mux.NewRouter()
 	r.HandleFunc("/", home)
